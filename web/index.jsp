@@ -28,15 +28,20 @@
          <h1>Ofertas da Loja!</h1>
 
          <div class="ofertas">
-            <c:forEach var="p" items="${Produtos.lista}">
+
+            <% int i=0; %>
+
+            <c:forEach var="p" items="${Produtos.lista}" >
                <c:if test="${p.oferta}">
                    <div>
                      <h5>${p.descricao} </h5>
-                     <p>${p.preço} </p>
+                     <p>${p.preco} </p>
                      <img src="${p.imagem}"></img>
+                     <a href="produto.jsp?id=<%=i%>">Adicionar</a>
                     </div>
-                  </c:if>
+               </c:if>
 
+               <% i++; %>
             </c:forEach>
          </div>
 
