@@ -45,22 +45,22 @@ public class Mock {
             lista = Produto.lista;
 
             Produto caneta = new Produto();
-            caneta.setDescricao("Caneta Bic");
-            caneta.setPreco(1.5f);
+            caneta.setDescricao("Moletom");
+            caneta.setPreco(60.0f);
             caneta.setOferta(true);
             caneta.setImagem("http://www.bavatos.com.br/content/images/thumbs/0001016_caneta-esf-cristal-azul-bic_580.jpeg");
             lista.add(caneta);
 
             Produto caderno = new Produto();
-            caderno.setDescricao("Caderno");
-            caderno.setPreco(5.5f);
+            caderno.setDescricao("boné");
+            caderno.setPreco(25.5f);
             caderno.setOferta(true);
             caderno.setImagem("https://cdnv2.moovin.com.br/marbig/imagens/produtos/det/caderno-espiral-capa-plastica-universitario-1-materia-neon-lilas-96-folhas-img-56136.jpg");
             lista.add(caderno);
 
             Produto caneca = new Produto();
-            caneca.setDescricao("Caneca");
-            caneca.setPreco(10.0f);
+            caneca.setDescricao("meia");
+            caneca.setPreco(15.0f);
             caneca.setOferta(false);
             caneca.setImagem("https://socd.vteximg.com.br/arquivos/ids/171137-1310-1310/caneca-magica-azul-marinho-fosco.jpg?v=636404720194970000");
             lista.add(caneca);
